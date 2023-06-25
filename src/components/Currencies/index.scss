@@ -1,0 +1,17 @@
+.currencies {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0px 4px 35px 0px rgba(168, 172, 176, 0.19);
+    &.open {
+        display: flex;
+    }
+    &__item {
+        font-weight: 500;
+        &:hover {
+            color: #5ece7b;
+        }
+    }
+}
