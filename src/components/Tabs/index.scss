@@ -1,0 +1,19 @@
+.categories {
+    display: flex;
+    height: 100%;
+    gap: 16px;
+    &__item {
+        padding: 0 16px;
+        text-transform: uppercase;
+        border-bottom: 2px solid transparent;
+        &:hover {
+            color: #5ece7b;
+            border-bottom-color: #5ece7b;
+        }
+        &.active {
+            font-weight: 500;
+            color: #5ece7b;
+            border-color: #5ece7b;
+        }
+    }
+}
