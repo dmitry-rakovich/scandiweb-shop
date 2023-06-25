@@ -1,0 +1,22 @@
+.cart {
+    position: relative;
+    cursor: pointer;
+    &__products {
+        position: absolute;
+        z-index: 1;
+        padding: 20px;
+        right: 0;
+        top: 37px;
+        width: max-content;
+        display: none;
+        background-color: blueviolet;
+        color: white;
+        &.open {
+            display: block;
+        }
+    }
+}
+.cart-item {
+    display: flex;
+    gap: 10px;
+}
